@@ -15,7 +15,7 @@ const Signup = () => {
     const password = cred.password
     // API Call
     // const host = "http://localhost:5000"
-    const host = "inotebook-eta.vercel.app"
+    const host = "https://inotebook-rho.vercel.app/"
     const response = await fetch(`${host}/api/auth/createuser`, {
       method: "POST",
       headers: {
