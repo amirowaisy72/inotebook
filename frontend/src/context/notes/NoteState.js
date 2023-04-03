@@ -4,7 +4,7 @@ import context from "./noteContext";
 
 const NoteState = (props)=>{
   // const host = "http://localhost:5000"
-  const host = "inotebook-psi.vercel.app"
+  const host = "inotebook-eta.vercel.app"
 
   //Notes useState
   const notesInit = []

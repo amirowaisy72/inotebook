@@ -12,7 +12,7 @@ const Login = () => {
         const password = cred.password
         // API Call
         // const host = "http://localhost:5000"
-        const host = "inotebook-psi.vercel.app"
+        const host = "inotebook-eta.vercel.app"
         const response = await fetch(`${host}/api/auth/login`, {
             method: "POST",
             headers: {
