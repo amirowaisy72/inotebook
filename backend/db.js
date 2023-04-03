@@ -4,7 +4,7 @@ const { MONGOURI } = require('./config/key')
 mongoose.set('strictQuery', false);
 
 const connecToMongoose = ()=>{
-    mongoose.connect(url, ()=>{
+    mongoose.connect(MONGOURI, ()=>{
         console.log('connected to mongo successfully!!');
     });
 };
